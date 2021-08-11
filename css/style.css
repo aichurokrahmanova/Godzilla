@@ -1,0 +1,106 @@
+ol, ul, li {
+    list-style: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #1D1D1D;
+}
+
+
+#header {
+    position: absolute;
+}
+
+.header__menu {
+    padding-top: 44px;
+    width: 56px;
+    height: 1000px;
+    background: rgba(29, 29, 29, 0.5);
+    box-shadow: 0 40px 40px 8px rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(24px);
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu li {
+    margin-left: -2em;
+    margin-top: 88px;
+}
+
+#hero {
+    background: url("../img/bg.png") no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header__user-settings {
+    position: absolute;
+    display: flex;
+    margin-top: -966px;
+    margin-left: 1300px;
+    z-index: 2;
+
+}
+
+.header__user-settings a {
+    margin-left: 60px;
+}
+/*------------------------------------------*/
+
+.hero__content {
+    padding-left: 180px;
+    padding-top: 200px;
+}
+
+.hero__content-fiction {
+    width: 111px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0FEFFD;
+    background: rgba(29, 29, 29, 0.5);
+    border-radius: 0 8px;
+    padding: 5px  5px  5px  9px;
+    margin-bottom: 17px;
+}
+
+.hero__content-vs  {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+
+.hero__content-list {
+    width: 632px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.hero__content-btn {
+    border: 1.5px solid #0FEFFD;
+    padding: 10px 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 40px 40px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 16px 16px 4px rgba(0, 0, 0, 0.12);
+    transition: all .2s linear;
+}
+
+.hero__content-btn:hover {
+    border: 1.5px solid #fdc20f;
+    color: #fda60f;
+}
